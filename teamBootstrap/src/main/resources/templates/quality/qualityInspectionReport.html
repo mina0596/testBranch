@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/Layout"
+layout:decorate="@{layout/default_qualityControl}">
+
+<th:block layout:fragment="pageTitle">
+	   <div class="border-head"> 
+	    <h3 th:text="${title}"></h3>
+	    </div>
+</th:block>
+
+
+<th:block layout:fragment="container">
+	품질검사 성적서 조회 
+	품질검사 성적서
+발행번호
+계약번호
+품질검사요청 일시
+검사완료일
+품목별 제조번호 
+유형 품목
+제조일 
+담당자 이름
+거래처 담당사람이름
+
+결과
+시험항목
+검사기준
+검사 결과
+판정
+현재 날짜
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+</th:block>
+
+</html>
